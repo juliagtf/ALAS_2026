@@ -31,6 +31,7 @@ stopwords.R — lista de stopwords em português utilizada na filtragem de token
 tabela_paises_codigos.R — tabela de referência com nomes de países em português e seus respectivos códigos ISO 3166-1 alfa-3, usada tanto na detecção de menções quanto no join com as geometrias do mapa
 
 rdocs/
+
 01_telegramr_aguiaencaminhadas.R
 Script de análise do Grupo Águia (setembro–novembro de 2025). Cobre o pipeline completo: leitura e consolidação dos JSONs mensais, filtragem de mensagens encaminhadas, extração e contagem de países citados, geração de mapa coroplético, grafo de co-ocorrência entre países, teia discursiva por palavra-chave e nuvens de palavras gerais e por país.
 
