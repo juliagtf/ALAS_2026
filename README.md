@@ -28,7 +28,7 @@ tabela_paises_codigos.R — tabela de referência com nomes de países em portug
 
 rdocs/
 01_telegramr_aguiaencaminhadas.R
-Script de análise do Grupo Águia (setembro–novembro de 2024). Cobre o pipeline completo: leitura e consolidação dos JSONs mensais, filtragem de mensagens encaminhadas, extração e contagem de países citados, geração de mapa coroplético, grafo de co-ocorrência entre países, teia discursiva por palavra-chave e nuvens de palavras gerais e por país.
+Script de análise do Grupo Águia (setembro–novembro de 2025). Cobre o pipeline completo: leitura e consolidação dos JSONs mensais, filtragem de mensagens encaminhadas, extração e contagem de países citados, geração de mapa coroplético, grafo de co-ocorrência entre países, teia discursiva por palavra-chave e nuvens de palavras gerais e por país.
 
 02_telegramr_forcaehonraencaminhadas.R
 Script de análise do Grupo FORÇA & HONRA chat, com estrutura análoga ao script do Águia.
@@ -283,6 +283,7 @@ rm(contagem_com_iso, mapa_mundo, mapa_dados)
 alt="Exemplo de visualização" />
 <figcaption aria-hidden="true"><em>Mapa coroplético com países citados no Grupo Águia</em></figcaption>
 </figure>
+
 
 Para o mapa coroplético, as contagens são vinculadas ao código ISO3 de cada país via `left_join()`. As geometrias vêm do pacote `rnaturalearth`. A escala de cores usa transformação logarítmica (`log10(total_mencoes + 1)`) para suavizar a diferença entre países muito e pouco citados, e a paleta "Greek" do `MetBrewer` garante visual adequado para publicação.
 
