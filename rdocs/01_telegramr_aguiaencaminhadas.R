@@ -74,6 +74,8 @@ mensagens_encaminhadas %>%
   theme_classic() +
   scale_x_continuous(expand = expansion(mult = c(0, 0.1)))
 
+salvar_figura("top10_canais_aguia")
+
 ## 4.2. Preparação do vetor de países ----
 
 source("rdocs/source/tabela_paises_codigos.r")
