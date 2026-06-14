@@ -14,7 +14,7 @@ Lucas Jaime Andrade Oliveira
 
 Este relatório documenta o pipeline de análise das mensagens encaminhadas nos grupos de Telegram selecionados, utilizando como exemplo o grupo **Águia**, cobrindo o período de **setembro a novembro de 2025**. O objetivo é mapear os canais de origem das mensagens, identificar os países mais mencionados, visualizar co-ocorrências geopolíticas e explorar as redes discursivas do grupo por meio de grafos e nuvens de palavras.
 
-O código completo está disponível no repositório do GitHub (link). Este documento serve como relato metodológico reproduzível, podendo ser consultado em conjunto com os scripts `.R` originais.
+O código completo está disponível no repositório do [GitHub](https://github.com/juliagtf/ALAS_2026). Este documento serve como relato metodológico reproduzível, podendo ser consultado em conjunto com os scripts `.R` originais.
 
 ---
 ## Estrutura do diretório 
